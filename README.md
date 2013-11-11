@@ -21,11 +21,9 @@ The plugin manager will automatically load up the plugin when the game/editor is
 
 CVars / Commands
 ================
-* ```CryVR_filters_euro_frequence```
-  Filter Refresh rate
+* ```CryVR_filters_euro_frequence``` Filter Refresh rate
 
-* ```CryVR_filters_euro_beta```
-  Filter beta parameter
+* ```CryVR_filters_euro_beta``` Filter beta parameter
 
 * ```CryVR_filters_euro_mincutoff```
   Filter min cut off parameter
