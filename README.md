@@ -25,14 +25,11 @@ CVars / Commands
 
 * ```CryVR_filters_euro_beta``` Filter beta parameter
 
-* ```CryVR_filters_euro_mincutoff```
-  Filter min cut off parameter
+* ```CryVR_filters_euro_mincutoff``` Filter min cut off parameter
 
-* ```CryVR_filters_enable```
-  Enable/Disable all filters
+* ```CryVR_filters_enable``` Enable/Disable all filters
 
-* ```CryVR_filters_euro_enable```
-  Enable/Disable OneEuro filter
+* ```CryVR_filters_euro_enable``` Enable/Disable OneEuro filter
 
 
 Flownodes
