@@ -35,12 +35,10 @@ CVars / Commands
 Flownodes
 =========
 OneEuro : After activation, just smooth noisy float input with given console variables values.
+
 OneEuro2D : After activation, just smooth noisy Vec2 input with given console variables values.
+
 OneEuroVec : After activation, just smooth noisy Vec3 input with given console variables values.
+
 OneEuroQuat : After activation, just smooth noisy Quaternion input with given console variables values.
 
-
-
-
-
-...
