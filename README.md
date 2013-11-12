@@ -3,7 +3,7 @@ OneEuro Plugin for CryEngine SDK
 
 One Euro Filter for CryEngine 3.5.4
 
-Purpose of this plugin is to smooth noisy data. You should use this plugin when using Wiimote plugin, or anything else generating raw data such as VRPN trackers or gyrioscope from mobiles devices for example.
+Purpose of this plugin is to smooth noisy data. You should use this plugin when using Wiimote plugin, or anything else generating raw data such as VRPN trackers or gyroscope from mobiles devices for example.
 
 To see why One Euro filter : http://www.youtube.com/watch?v=ybZR4WRjkpM
 
