@@ -43,22 +43,22 @@ class CFlowOneEuroFilterVec : public CFlowBaseNode<eNCT_Instanced>
             // Define input ports here, in same order as EInputPorts
             static const SInputPortConfig inputs[] =
             {
-                InputPortConfig<bool> ( "Active", _HELP( "Activation" ) ),
-                InputPortConfig<Vec3> ( "Valeur", Vec3( 0, 0, 0 ), _HELP( "Valeur a filtrer" ) ),
+                InputPortConfig<bool> ( "Activate", _HELP( "Activation" ) ),
+                InputPortConfig<Vec3> ( "Value", Vec3( 0, 0, 0 ), _HELP( "Value to filter" ) ),
                 {0},
             };
 
             // Define output ports here, in same order as EOutputPorts
             static const SOutputPortConfig outputs[] =
             {
-                OutputPortConfig<Vec3> ( "Valeur filtree", _HELP( "Fov courrant" ) ),
+                OutputPortConfig<Vec3> ( "FilteredValue", _HELP( "Filtered Vec3 value" ) ),
                 {0},
             };
 
             // Fill in configuration
             config.pInputPorts = inputs;
             config.pOutputPorts = outputs;
-            config.sDescription = _HELP( "FG node that sets up a CAVE environment" );
+            config.sDescription = _HELP( "CryVR node that filter a Vec3 with OneEuro filter" );
             config.SetCategory( EFLN_APPROVED );
         }
 

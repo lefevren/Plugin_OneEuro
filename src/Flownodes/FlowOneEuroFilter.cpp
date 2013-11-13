@@ -40,27 +40,22 @@ class CFlowOneEuroFilter : public CFlowBaseNode<eNCT_Instanced>
             // Define input ports here, in same order as EInputPorts
             static const SInputPortConfig inputs[] =
             {
-                //InputPortConfig<float> ("Frequence",120,_HELP("Ne sert a rien?")),
-                //InputPortConfig<float> ("MinCutOff",1.0, _HELP("Min cut Off")),
-                //InputPortConfig<float> ("beta",1.0, _HELP("?")),
-                //InputPortConfig<float> ("DCutOff",1.0, _HELP("Derivate Cut Off ?")),
-                InputPortConfig<bool> ( "Active", true, _HELP( "Activation" ) ),
-
-                InputPortConfig<float> ( "Valeur", 1.0, _HELP( "Valeur a filtrer" ) ),
+                InputPortConfig<bool> ( "Activate", true, _HELP( "Activation" ) ),
+                InputPortConfig<float> ( "Value", 1.0, _HELP( "Value to filter" ) ),
                 {0},
             };
 
             // Define output ports here, in same order as EOutputPorts
             static const SOutputPortConfig outputs[] =
             {
-                OutputPortConfig<float> ( "Valeur filtree", _HELP( "Fov courrant" ) ),
+                OutputPortConfig<float> ( "FilteredValue", _HELP( "Filtered value" ) ),
                 {0},
             };
 
             // Fill in configuration
             config.pInputPorts = inputs;
             config.pOutputPorts = outputs;
-            config.sDescription = _HELP( "FG node that sets up a CAVE environment" );
+            config.sDescription = _HELP( "CryVR node that filter a float with OneEuro filter" );
             config.SetCategory( EFLN_APPROVED );
         }
 
